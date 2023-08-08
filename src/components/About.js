@@ -4,9 +4,9 @@ import Profile from '../assets/images/avatar.jpg'
 
 function About() {
     return (
-        // TODO: Add style classes
         <section>
             <div className='p-3 m-2'>
+                {/* Section Title */}
                 <h1 className='pb-1 border-bottom border-dark border-3' style={{color: '#1B263B'}}>
                     About Me
                 </h1>

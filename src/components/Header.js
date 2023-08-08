@@ -22,23 +22,25 @@ function Header() {
                 return <Resume />;
 
         default:
-            // TODO: Set value back to 'About'
-            return <ProjectList />
+            return <About />
         }
     };
 
     return (
         <div>
             <div className='d-flex justify-content-center' style={{backgroundColor: "#415A77"}}>
+                {/* Name header */}
             <a href='https://github.com/Morkendi' className='text-decoration-none'>
                 <h1 className='py-2' style={{color: '#E0E1DD'}}>Daniel Sanchez Gutierrez</h1>
             </a>
             </div>
+            {/* Navbar component */}
             <NavBar 
             currentSection={currentSection}
             handleSectionChange={handleSectionChange}
             />
             <main>
+                {/* Render selected section */}
             <div>{renderSection(currentSection)}</div>
             </main>
             <div className='mb-5 pb-3'></div>
