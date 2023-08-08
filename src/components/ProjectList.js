@@ -8,7 +8,7 @@ import Img4 from '../assets/images/sales-tracker_img.png';
 import Img5 from '../assets/images/weather-dash_img.png';
 import Img6 from '../assets/images/password_img.gif';
 
-
+// Hardcode Project information
 const projects = [
     {
         id: 0,
@@ -69,7 +69,9 @@ const projects = [
 function ProjectList() {
     return(
         <div className='p-3 m-2'>
+            {/* Section Title */}
             <h1 className='pb-1 border-bottom border-dark border-3' style={{color: '#1B263B'}}>My projects</h1>
+            {/* Render Portfolio Component */}
             <Portfolio projects={projects}/>
         </div>
     );
