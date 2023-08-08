@@ -5,12 +5,12 @@ function NavBar(props) {
 
     return(
         // TODO: Add style classes
-        <div className='section-list'>
-            <ul>
+        <nav className='pt-2'>
+            <ul className='nav nav-pills justify-content-center' style={{fontSize: '25px'}}>
                 {sections.map((section) => (
                     <li
                         className= {
-                            props.currentSection === section ? 'nav-item is-active' : 'nav-item'
+                            props.currentSection === section ? 'nav-item active' : 'nav-item'
                         }
                         key= {section}
                         >
@@ -20,13 +20,14 @@ function NavBar(props) {
                         className={
                             props.currentSection === section ? 'nav-link active' : 'nav-link'
                         }
+                        style={{color: '#1B263B', fontWeight: 'bold'}}
                         >
                             {section}
                         </a>
                     </li>
                 ))}
             </ul>
-        </div>
+        </nav>
     ); 
 }
 
