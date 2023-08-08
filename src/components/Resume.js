@@ -4,7 +4,6 @@ import ResumePDF from '../assets/PDF/Resume.pdf'
 
 function Resume() {
     return(
-        // TODO: Add style classes
         <div className='p-3 m-2'>
             {/* Section Title */}
             <div>
@@ -14,17 +13,17 @@ function Resume() {
             <div className='d-flex flex-wrap align-items-center'>
             <div className='flex-fill'>
                 <div className='d-flex justify-content-center'>
-                <a 
-                href={ResumePDF}
-                download='CV-DSG-PDF'
-                target='_blank'
-                rel='noopener noreferrer'
-                >
-                    <button type='download' className='btn btn-lg mx-2' style={{backgroundColor: '#1B263B', color: '#E0E1DD'}}>
-                    <i className='bi bi-download pe-2'></i>
-                    <span>Download Resume</span>
-                    </button>
-                </a>
+                    <a 
+                    href={ResumePDF}
+                    download='CV-DSG-PDF'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    >
+                        <button type='download' className='btn btn-lg mx-2' style={{backgroundColor: '#1B263B', color: '#E0E1DD'}}>
+                        <i className='bi bi-download pe-2'></i>
+                        <span>Download Resume</span>
+                        </button>
+                    </a>
                 </div>
             </div>
             {/* Skill list */}
