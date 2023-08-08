@@ -41,53 +41,73 @@ function Contact() {
 
     return (
         // TODO: Add style classes
-        <section className='contact-form'>
-            <div className='flex-row'>
-                <h2 className='section-title'>Get in touch!</h2>
+        <section className='p-3 m-2'>
+            <div>
+                <h1 className='pb-1 border-bottom border-dark border-3' style={{color: '#1B263B'}}>Get in touch!</h1>
             </div>
 
             {/* Personal info section */}
             <div className='personal-info'>
-                <div>
-                    <h3>Hello there!</h3>
-                    <p>Want to get in touch?</p>
-                    <form className='contact-form'>
+                <div className='d-flex align-items-center'>
+                    <div className='d-flex flex-column align-items-center flex-fill'>
+                        <h1>Hello there!</h1>
+                        <h2 className='mb-5'>Want to get in touch?</h2>
+                        <p className='fs-2'><i className='bi bi-geo-alt-fill pe-2'></i>Mexico City, Mexico</p>
+                        <p className='fs-2'><i className='bi bi-envelope-fill pe-3'></i>morkendi@gmail.com</p>
+                        <p></p>
+                    </div>
+                    <form className='pt-4 contact-form flex-fill'>
+                        <div className='d-flex flex-column'>
                         {/* Name field */}
-                        <label htmlFor='contact-name'>Name</label>
-                        <input 
-                        value={username}
-                        name='username'
-                        onChange={handleInputChange}
-                        type='text'
-                        id='contact-name'
-                        placeholder='Write your name here'
-                        ></input>
+                        <div>
+                            <label className='form-label fs-3' htmlFor='contact-name'>Name</label>
+                            <input 
+                            className='form-control form-control-lg'
+                            value={username}
+                            name='username'
+                            onChange={handleInputChange}
+                            type='text'
+                            id='contact-name'
+                            placeholder='Write your name here'
+                            ></input>
+                        </div>
 
                         {/* E-mail field */}
-                        <label htmlFor='contact-email'>e-mail</label>
-                        <input 
-                        value={email}
-                        name='email'
-                        onChange={handleInputChange}
-                        type='email'
-                        id='contact-email'
-                        placeholder='Write your e-mail'
-                        ></input>
+                        <div>
+                            <label className='form-label fs-3 pt-2' htmlFor='contact-email'>E-mail</label>
+                            <input 
+                            className='form-control form-control-lg'
+                            value={email}
+                            name='email'
+                            onChange={handleInputChange}
+                            type='email'
+                            id='contact-email'
+                            placeholder='Write your e-mail'
+                            ></input>
+                        </div>
 
                         {/* Message field */}
-                        <label htmlFor='contact-msg'>Your message</label>
-                        <textarea
-                        value={message}
-                        name='message'
-                        onChange={handleInputChange}
-                        type='message'
-                        id='contact-msg'
-                        placeholder='Write your message!'
-                        ></textarea>
+                        <div>
+                            <label className='form-label fs-3 pt-2' htmlFor='contact-msg'>Your message</label>
+                            <textarea
+                            className='form-control form-control-lg'
+                            value={message}
+                            name='message'
+                            onChange={handleInputChange}
+                            type='message'
+                            id='contact-msg'
+                            placeholder='Write your message!'
+                            ></textarea>
+                        </div>
                         <button
-                            type='button' onClick={handleFormSubmit}
+                            className='btn mt-3 fs-3'
+                            style={{backgroundColor: '#1B263B', color: '#E0E1DD'}}
+                            type='button' 
+                            onClick={handleFormSubmit}
                         >Submit</button>
+                        </div>
                     </form>
+                    
                 </div>
                 {errorMsg && (
                     <div>

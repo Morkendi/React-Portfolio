@@ -22,27 +22,26 @@ function Header() {
                 return <Resume />;
 
         default:
-            return <About />
+            // TODO: Set value back to 'About'
+            return <ProjectList />
         }
     };
 
     return (
-        // TODO: Add style classes
         <div>
-        <div className='title'>
-            <a className='profile-link' href='https://github.com/Morkendi'>
-                <span>
-                    Daniel Sanchez Gutierrez
-                </span>
+            <div className='d-flex justify-content-center' style={{backgroundColor: "#415A77"}}>
+            <a href='https://github.com/Morkendi' className='text-decoration-none'>
+                <h1 className='py-2' style={{color: '#E0E1DD'}}>Daniel Sanchez Gutierrez</h1>
             </a>
-        </div>
-        <NavBar 
+            </div>
+            <NavBar 
             currentSection={currentSection}
             handleSectionChange={handleSectionChange}
-        />
-        <main>
+            />
+            <main>
             <div>{renderSection(currentSection)}</div>
-        </main>
+            </main>
+            <div className='mb-5 pb-3'></div>
         </div>
     );
 };

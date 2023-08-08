@@ -68,8 +68,8 @@ const projects = [
 
 function ProjectList() {
     return(
-        <div>
-            <h2>My projects</h2>
+        <div className='p-3 m-2'>
+            <h1 className='pb-1 border-bottom border-dark border-3' style={{color: '#1B263B'}}>My projects</h1>
             <Portfolio projects={projects}/>
         </div>
     );
