@@ -40,13 +40,12 @@ function Contact() {
     };
 
     return (
-        // TODO: Add style classes
         <section className='p-3 m-2'>
             <div>
                 <h1 className='pb-1 border-bottom border-dark border-3' style={{color: '#1B263B'}}>Get in touch!</h1>
             </div>
 
-            {/* Personal info section */}
+            {/* Personal information */}
             <div className='personal-info'>
                 <div className='d-flex align-items-center'>
                     <div className='d-flex flex-column align-items-center flex-fill'>
@@ -99,21 +98,23 @@ function Contact() {
                             placeholder='Write your message!'
                             ></textarea>
                         </div>
+                        {/* Submit button */}
                         <button
-                            className='btn mt-3 fs-3'
+                            className='btn my-3 fs-3'
                             style={{backgroundColor: '#1B263B', color: '#E0E1DD'}}
                             type='button' 
                             onClick={handleFormSubmit}
-                        >Submit</button>
+                        >Submit
+                        </button>
+                        {/* Error Message */}
+                        {errorMsg && (
+                            <div className="alert alert-danger text-center" role="alert">
+                                <p className='fs-4 mb-0'>{errorMsg}</p> 
+                            </div>
+                        )}
                         </div>
                     </form>
-                    
                 </div>
-                {errorMsg && (
-                    <div>
-                        <p className='error-msg'>{errorMsg}</p>
-                    </div>
-                )}
             </div>
         </section>
     );
