@@ -1,12 +1,13 @@
 import React from 'react';
+import './styles.css'
 
 function NavBar(props) {
     const sections = ['About', 'Portfolio', 'Contact', 'Resume'];
 
     return(
-        // TODO: Add style classes
         <nav className='pt-2'>
             <ul className='nav nav-pills justify-content-center' style={{fontSize: '25px'}}>
+                {/* Render each section */}
                 {sections.map((section) => (
                     <li
                         className= {
