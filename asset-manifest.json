@@ -1,14 +1,14 @@
 {
   "main.css": "/React-Portfolio/static/css/main.a7468f41.chunk.css",
-  "main.js": "/React-Portfolio/static/js/main.62553bb9.chunk.js",
-  "main.js.map": "/React-Portfolio/static/js/main.62553bb9.chunk.js.map",
+  "main.js": "/React-Portfolio/static/js/main.308387f1.chunk.js",
+  "main.js.map": "/React-Portfolio/static/js/main.308387f1.chunk.js.map",
   "static/css/1.5b7d95cc.chunk.css": "/React-Portfolio/static/css/1.5b7d95cc.chunk.css",
   "static/js/1.a2fbf3d3.chunk.js": "/React-Portfolio/static/js/1.a2fbf3d3.chunk.js",
   "static/js/1.a2fbf3d3.chunk.js.map": "/React-Portfolio/static/js/1.a2fbf3d3.chunk.js.map",
   "runtime~main.js": "/React-Portfolio/static/js/runtime~main.804d233a.js",
   "runtime~main.js.map": "/React-Portfolio/static/js/runtime~main.804d233a.js.map",
   "static/media/avatar.jpg": "/React-Portfolio/static/media/avatar.09cb37a5.jpg",
-  "static/media/commerce_img.png": "/React-Portfolio/static/media/commerce_img.368cc262.png",
+  "static/media/GoalHub.png": "/React-Portfolio/static/media/GoalHub.32f78940.png",
   "static/media/social-network_img.png": "/React-Portfolio/static/media/social-network_img.07b4896c.png",
   "static/media/text-editor_img.png": "/React-Portfolio/static/media/text-editor_img.e9def051.png",
   "static/media/sales-tracker_img.png": "/React-Portfolio/static/media/sales-tracker_img.99353942.png",
@@ -19,6 +19,6 @@
   "static/css/main.a7468f41.chunk.css.map": "/React-Portfolio/static/css/main.a7468f41.chunk.css.map",
   "static/css/1.5b7d95cc.chunk.css.map": "/React-Portfolio/static/css/1.5b7d95cc.chunk.css.map",
   "index.html": "/React-Portfolio/index.html",
-  "precache-manifest.0833114bbb3df2ebc971494852d766c8.js": "/React-Portfolio/precache-manifest.0833114bbb3df2ebc971494852d766c8.js",
+  "precache-manifest.83a00eebe0c555ad95ba9cbfefebfe6b.js": "/React-Portfolio/precache-manifest.83a00eebe0c555ad95ba9cbfefebfe6b.js",
   "service-worker.js": "/React-Portfolio/service-worker.js"
 }

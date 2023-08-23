@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "62553bb94f44fb9db20d",
+    "revision": "308387f197bf67dd693f",
     "url": "/React-Portfolio/static/css/main.a7468f41.chunk.css"
   },
   {
-    "revision": "62553bb94f44fb9db20d",
-    "url": "/React-Portfolio/static/js/main.62553bb9.chunk.js"
+    "revision": "308387f197bf67dd693f",
+    "url": "/React-Portfolio/static/js/main.308387f1.chunk.js"
   },
   {
     "revision": "a2fbf3d3916c22598ea1",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/avatar.09cb37a5.jpg"
   },
   {
-    "revision": "368cc262ff5bdfe538fad0296ade4125",
-    "url": "/React-Portfolio/static/media/commerce_img.368cc262.png"
+    "revision": "32f78940196413ca8657e6455a0a05b9",
+    "url": "/React-Portfolio/static/media/GoalHub.32f78940.png"
   },
   {
     "revision": "07b4896ca61e496f84825711a1f04ed8",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/bootstrap-icons.a30fb81b.woff2"
   },
   {
-    "revision": "4256fa0d65870736d002e6d7f0a60ead",
+    "revision": "2b2bff7672652d9a2791edd9a01e0e7a",
     "url": "/React-Portfolio/index.html"
   }
 ];
