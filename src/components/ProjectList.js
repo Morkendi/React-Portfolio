@@ -1,7 +1,7 @@
 import React from 'react';
 import Portfolio from './Portfolio';
 // import images
-import Img1 from '../assets/images/commerce_img.png';
+import Img1 from '../assets/images/GoalHub.png';
 import Img2 from '../assets/images/social-network_img.png';
 import Img3 from '../assets/images/text-editor_img.png';
 import Img4 from '../assets/images/sales-tracker_img.png';
@@ -12,12 +12,12 @@ import Img6 from '../assets/images/password_img.gif';
 const projects = [
     {
         id: 0,
-        title: 'E-Commerce Back-End',
+        title: 'GoalHub',
         image: Img1,
-        description: 'Back-End infrastructure for an E-commerce platform.',
-        framework: 'dotenv, Express.js, MySQL, Sequelize',
-        repo: 'https://github.com/Morkendi/E-Commerce',
-        deployment: 'https://drive.google.com/file/d/16yIotjda0piJeOLjotEuD0n-okhwQqGG/view'
+        description: 'Empower company employees to track departmental goals and personal achievements.',
+        framework: 'React, Apollo, GraphQL, JWT',
+        repo: 'https://github.com/mondragonSaiz/GoalHub',
+        deployment: 'https://goalhub-5f7766233267.herokuapp.com/'
     },
     {
         id: 1,
